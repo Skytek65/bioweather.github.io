@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioWeather - The Health-First Weather App</title>
+    <style>
+        :root {
+            --bg-color: #0d1116;
+            --text-primary: #e6edf3;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --border: #30363d;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 720px;
+            padding: 40px 20px;
+            width: 100%;
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 24px;
+            letter-spacing: -1px;
+        }
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: 60px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        p {
+            color: var(--text-secondary);
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        /* Branding */
+        .hero-tagline {
+            font-size: 24px;
+            color: var(--text-secondary);
+            font-weight: 400;
+            border-bottom: none;
+            margin-top: 0;
+            margin-bottom: 40px;
+        }
+
+        /* Icons/Emoji handling */
+        .icon {
+            margin-right: 8px;
+        }
+
+        /* Links */
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        footer {
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero -->
+        <header>
+            <h1>BioWeather</h1>
+            <p class="hero-tagline">Unlock your body's hidden language.</p>
+            
+            <p>
+                BioWeather helps you understand how weather patterns affect your physical and mental well-being. By correlating barometric pressure, humidity, and temperature with your symptoms, it provides proactive alerts for migraines, joint pain, and mood changes.
+            </p>
+        </header>
+
+        <!-- Features -->
+        <section>
+            <h2>✨ Why BioWeather?</h2>
+
+            <h3>🔐 100% Private</h3>
+            <p>Your health data stays on your device. We use on-device processing to analyze weather correlations. No accounts. No cloud storage. No data selling.</p>
+
+            <h3>🩺 Science-Backed</h3>
+            <p>Uses proven meteorological research to predict risks for arthritis, migraines, and asthma based on real-time hyper-local weather data.</p>
+
+            <h3>🧠 Intelligent Insights</h3>
+            <p>The more you use it, the smarter it gets. Log your symptoms daily to unlock personalized risk assessments tailored to your unique physiology.</p>
+        </section>
+
+        <!-- Support -->
+        <section>
+            <h2>🆘 Support</h2>
+            <p>Need assistance or have a feature request?</p>
+            <p>Contact us anytime at <a href="mailto:support@bioweather.app">support@bioweather.app</a>. We aim to respond to all inquiries within 24 hours.</p>
+        </section>
+
+        <!-- Privacy -->
+        <section>
+            <h2>ℹ️ Privacy Policy</h2>
+            <p>BioWeather is designed with privacy as its core feature.</p>
+            <p>
+                We do not collect, store, or transmit any of your personal health data. All symptom logging and weather correlation analysis happens locally on your device.
+            </p>
+            <p>
+                <a href="privacy.html">Read our full Privacy Policy &rarr;</a>
+            </p>
+        </section>
+
+        <footer>
+            &copy; 2026 BioWeather. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
